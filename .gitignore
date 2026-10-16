@@ -6,12 +6,15 @@ obj/
 temp/
 *.tmp
 *.temp
+*.bak
+*~
 # Файлы журналов
 logs/
 *.log
 # Локальные настройки
 .env
 appsettings.Local.json
+secrets.json
 # Файлы операционной системы
 Thumbs.db
 .DS_Store
@@ -20,5 +23,10 @@ Thumbs.db
 .vscode/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+# Пакеты и зависимости 
+packages/
+*.nupkg
 # Результаты тестирования
 TestResults/
